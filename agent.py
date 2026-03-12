@@ -1,4 +1,6 @@
+
 # Function to display the room
+import random 
 def display(room):
     print(room)
 
@@ -49,3 +51,4 @@ performance = (100 - ((z / 16) * 100))
 print("Room is clean now. Thanks for using the Robot Vacuum Cleaner!")
 display(room)
 print('Performance=', performance, '%')
+
